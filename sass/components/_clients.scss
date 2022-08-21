@@ -1,20 +1,10 @@
-.clients-section__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--head-color);
-}
-
-.clients-section__list {
+.clients-list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-section__link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +22,6 @@
   }
 }
 
-.clients-section__icon {
+.clients-list__icon {
   fill: currentColor;
 }

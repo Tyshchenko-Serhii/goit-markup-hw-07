@@ -1,27 +1,17 @@
-.work-section {
+.no_padding_top {
   padding-top: 0;
 }
 
-.work-section__list {
+.work-list {
   display: flex;
   justify-content: space-between;
 }
 
-.work-section__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--head-color);
-  margin-bottom: 50px;
-}
-
-.work-section__item {
+.work-list__item {
   position: relative;
 }
 
-.work-section__overlay {
+.work-list__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
